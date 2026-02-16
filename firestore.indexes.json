@@ -1,0 +1,16 @@
+{
+  "indexes": [
+    {"collectionGroup":"user_passes","queryScope":"COLLECTION","fields":[{"fieldPath":"qrToken","order":"ASCENDING"},{"fieldPath":"status","order":"ASCENDING"}]},
+    {"collectionGroup":"registrations","queryScope":"COLLECTION","fields":[{"fieldPath":"userId","order":"ASCENDING"},{"fieldPath":"registeredAt","order":"DESCENDING"}]},
+    {"collectionGroup":"users","queryScope":"COLLECTION","fields":[{"fieldPath":"role","order":"ASCENDING"},{"fieldPath":"createdAt","order":"DESCENDING"}]},
+    {"collectionGroup":"payments","queryScope":"COLLECTION","fields":[{"fieldPath":"status","order":"ASCENDING"},{"fieldPath":"paidAt","order":"ASCENDING"}]},
+    {"collectionGroup":"payments","queryScope":"COLLECTION","fields":[{"fieldPath":"userId","order":"ASCENDING"},{"fieldPath":"paidAt","order":"DESCENDING"}]},
+    {"collectionGroup":"attendance","queryScope":"COLLECTION","fields":[{"fieldPath":"eventId","order":"ASCENDING"},{"fieldPath":"scannedAt","order":"DESCENDING"}]},
+    {"collectionGroup":"attendance","queryScope":"COLLECTION","fields":[{"fieldPath":"venue","order":"ASCENDING"},{"fieldPath":"scannedAt","order":"DESCENDING"}]},
+    {"collectionGroup":"attendance","queryScope":"COLLECTION","fields":[{"fieldPath":"status","order":"ASCENDING"},{"fieldPath":"scannedAt","order":"DESCENDING"}]},
+    {"collectionGroup":"attendance","queryScope":"COLLECTION","fields":[{"fieldPath":"userId","order":"ASCENDING"},{"fieldPath":"eventId","order":"ASCENDING"}]},
+    {"collectionGroup":"events","queryScope":"COLLECTION","fields":[{"fieldPath":"status","order":"ASCENDING"},{"fieldPath":"date","order":"ASCENDING"}]},
+    {"collectionGroup":"user_qr_tokens","queryScope":"COLLECTION","fields":[{"fieldPath":"qrToken","order":"ASCENDING"}]}
+  ],
+  "fieldOverrides": []
+}
